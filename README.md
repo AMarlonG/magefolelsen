@@ -1,0 +1,2 @@
+# magefolelsen
+ Personal website
