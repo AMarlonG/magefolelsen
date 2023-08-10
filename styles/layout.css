@@ -1,0 +1,46 @@
+.mother-grid {
+  width: min(130ch, 100% - 2rem);
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 2fr 2.5fr;
+  grid-template-rows: 75dvh 25.5dvh auto auto;
+}
+
+.header {
+  grid-column: 1 / span 2;
+  position: fixed;
+  margin-block-start: 35dvh;
+}
+
+#scrolling {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.questions {
+  grid-column: 2;
+  grid-row: 3;
+  z-index: 10;
+  margin-block-end: 75.5dvh;
+}
+
+.questions section > picture {
+  display: grid;
+  place-items: center;
+}
+
+.questions-title {
+  height: 25dvh;
+  margin-block-start: -25dvh;
+}
+
+.questions-items {
+  display: grid;
+  gap: 6rem;
+}
+
+.about {
+  grid-column: 2;
+  grid-row: 4;
+  height: 25dvh;
+}
