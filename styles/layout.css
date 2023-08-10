@@ -9,12 +9,24 @@
 .header {
   grid-column: 1 / span 2;
   position: fixed;
-  margin-block-start: 35dvh;
+  margin-block-start: 20dvh;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.header > h1 {
+  line-height: 1;
+}
+
+.header > a {
+  line-height: 14rem;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 0.6em;
 }
 
 #scrolling {
   opacity: 0;
-  transition: opacity 0.5s;
 }
 
 .questions {
@@ -22,16 +34,22 @@
   grid-row: 3;
   z-index: 10;
   margin-block-end: 75.5dvh;
+  padding: 2rem;
+  background-color: white;
 }
 
 .questions section > picture {
   display: grid;
   place-items: center;
+  margin-block-start: 2.5rem;
 }
 
 .questions-title {
-  height: 25dvh;
-  margin-block-start: -25dvh;
+  height: 25.5dvh;
+  margin-block-start: -28.5dvh;
+  padding: 1rem;
+  border-inline-end: black solid 1rem;
+  background-color: white;
 }
 
 .questions-items {
@@ -39,8 +57,21 @@
   gap: 6rem;
 }
 
+.questions-items > section {
+  margin-block-start: 10rem;
+  padding: 1rem;
+  border-inline-end: black solid 1rem;
+}
+
 .about {
   grid-column: 2;
   grid-row: 4;
-  height: 25dvh;
+  height: 28.5dvh;
+  padding: 2rem;
+}
+
+.about > a {
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
 }

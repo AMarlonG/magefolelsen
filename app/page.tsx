@@ -28,15 +28,15 @@ export default function HomePage() {
           <div className='questions-items' ref={myRef}>
             <section>
               <p>
-                Er du enig i at man først må ha en god historie og et mål med
-                den historien?
+                Er du enig i at først må man ha en historie og et tydelig mål
+                med den historien?
               </p>
               <NoddingWoman />
             </section>
 
             <section>
               <p>
-                Og med historien og målet på plass så kan man jobbe med hvordan
+                Og med historien og målet på plass kan man jobbe med hvordan
                 historien fortelles?
               </p>
               <JackBlack />
@@ -60,8 +60,8 @@ export default function HomePage() {
 
             <section>
               <p>
-                Om alt dette gir mening så er det vel bare å begynne jobben
-                sammen. Vi snakkes!
+                Hvis dette gir mening, er det vel bare å begynne å jobbe sammen.
+                Vi snakkes!
               </p>
               <WorkingPenguin />
             </section>
@@ -69,7 +69,7 @@ export default function HomePage() {
         </article>
 
         <section className='about'>
-          <a href='./om-magefolelsen'>Om magefølelsen</a>
+          <a href='./om-magefolelsen'>Om Magefølelsen</a>
         </section>
       </main>
     </>
