@@ -22,12 +22,11 @@ export default function AboutPage() {
             Rett kommunikasjon og design til rett kunde, til rett tid. Så
             enkelt, og så himla vanskelig. Det er alltid morsomst å drive med
             det grafiske når det kommer til design av nettsider – farger,
-            fonter, bevegelser, etc. Men det krever en lang og grundig analyse
-            av dine ønsker og mål, opp mot en nå-situasjon av hele din
-            aktivitet. Kanskje du har lyst på en Rolls Royce, og det skal du få
-            hvis du klarer å håndtere den, men hvis det du egentlig trenger er
-            en solid Toyota, er det det du får. Og du kommer til å bli fornøyd
-            med den.
+            fonter, bevegelser, etc. Men det krever en grundig analyse av dine
+            ønsker og mål, opp mot en nå-situasjon av hele din aktivitet.
+            Kanskje du har lyst på en Rolls Royce, og det skal du få hvis du
+            klarer å håndtere den, men hvis det du egentlig trenger er en solid
+            Toyota, er det det du får. Og du kommer til å bli fornøyd med den.
           </p>
         </section>
         <section>
@@ -43,6 +42,9 @@ export default function AboutPage() {
           </p>
         </section>
       </article>
+      <section className='homepage'>
+        <a href='./'>Tilbake til forsiden</a>
+      </section>
     </>
   );
 }
