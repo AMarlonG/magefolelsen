@@ -41,7 +41,7 @@ export default function AboutPage() {
             <p>
               Rett kommunikasjon og design, til rett tid. Så enkelt, og så
               vanskelig. For å komme dit må vi grave i behov og mål, og hvordan
-              dere jobber i dag. Du skal få en Rolls Royce hvis du klarer å
+              det jobbes i dag. Du skal få en Rolls Royce hvis du klarer å
               håndtere den, men hvis du egentlig trenger en Toyota, er det det
               du får. Med litt RR attåt ...😎
             </p>
