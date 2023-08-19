@@ -16,10 +16,9 @@ export default function HomePage() {
   return (
     <>
       <main className='mother-fp'>
-        <header className='header-fp' id={elementIsVisible ? 'scrolling' : ''}>
+        <header className='header-fp' id={elementIsVisible ? 'invisible' : ''}>
           <h1>Magefølelsen</h1>
           <h2>Kommunikasjon & design</h2>
-          <a href='mailto:hei@magefolelsen.no'>hei@magefolelsen.no</a>
         </header>
 
         <article className='questions'>
@@ -61,7 +60,9 @@ export default function HomePage() {
             <section>
               <p>
                 Hvis dette gir mening, er det vel bare å begynne å jobbe sammen.
-                Vi snakkes!
+              </p>
+              <p className='email'>
+                <a href='mailto:hei@magefolelsen.no'>hei@magefolelsen.no</a>
               </p>
               <WorkingPenguin />
             </section>
