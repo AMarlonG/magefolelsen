@@ -9,8 +9,8 @@ export default function AboutPage() {
   return (
     <>
       <main className='mother-ap'>
-        <header className='header-ap'>
-          <h1 id={elementIsVisible ? 'invisible' : ''}>Om Magefølelsen</h1>
+        <header className='header-ap' id={elementIsVisible ? 'invisible' : ''}>
+          <h1>Om Magefølelsen</h1>
 
           <nav className='nav'>
             <h2>
@@ -40,10 +40,10 @@ export default function AboutPage() {
             <h3>Hvordan jobber vi?</h3>
             <p>
               Rett kommunikasjon og design, til rett tid. Så enkelt, og så
-              vanskelig. For å komme dit må vi forstå både dine behov og mål, og
-              hvordan dere jobber med kommunikasjon i dag. Du skal få en Rolls
-              Royce hvis du klarer å håndtere den, men hvis du egentlig trenger
-              en solid Toyota, er det det du får. Med litt RR attåt ...😎
+              vanskelig. For å komme dit må vi grave i behov og mål, og hvordan
+              dere jobber i dag. Du skal få en Rolls Royce hvis du klarer å
+              håndtere den, men hvis du egentlig trenger en Toyota, er det det
+              du får. Med litt RR attåt ...😎
             </p>
             <p>
               Noen vi har jobbet med er{' '}
