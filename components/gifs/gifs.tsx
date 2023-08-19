@@ -6,6 +6,7 @@ import jackBlack from '@/public/gifs/jack-black.gif';
 import oprah from '@/public/gifs/oprah.gif';
 import tracyMorgan from '@/public/gifs/tracy-morgan.gif';
 import workingPenguin from '@/public/gifs/working-penguin.gif';
+import selfPortrait from '@/public/gifs/self-portrait.jpg';
 
 export function NoddingWoman() {
   return (
@@ -86,6 +87,22 @@ export function WorkingPenguin() {
           width={200}
           height={200}
           unoptimized={true}
+        />
+      </picture>
+    </>
+  );
+}
+
+export function SelfPortrait() {
+  return (
+    <>
+      <picture>
+        <Image
+          className={styles.gifs}
+          src={selfPortrait}
+          alt='Selvpotrett av Ådne'
+          width={200}
+          height={200}
         />
       </picture>
     </>

@@ -1,4 +1,6 @@
-.mother-grid {
+/* Front page */
+
+.mother-fp {
   width: min(130ch, 100% - 2rem);
   margin-inline: auto;
   display: grid;
@@ -6,18 +8,18 @@
   grid-template-rows: 75dvh 25.5dvh auto auto;
 }
 
-.header {
+.header-fp {
   grid-column: 1;
   position: fixed;
   margin-block-start: 20dvh;
   transition: opacity 0.5s ease-in-out;
 }
 
-.header > h1 {
+.header-fp > h1 {
   line-height: 1;
 }
 
-.header > a {
+.header-fp > a {
   line-height: 14rem;
   text-decoration: none;
   background-color: black;
@@ -75,4 +77,47 @@
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+
+/* About page */
+
+.mother-ap {
+  width: min(130ch, 100% - 2rem);
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr;
+  grid-template-rows: 75dvh 25.5dvh auto auto;
+}
+
+.header-ap {
+  grid-column: 1;
+  position: fixed;
+  margin-block-start: 20dvh;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.header-ap > h1 {
+  font-size: var(--step-3);
+}
+
+.header-ap > nav > h2 {
+  font-size: var(--step-1);
+}
+
+.content {
+  grid-column: 2;
+  grid-row: 3;
+  z-index: 10;
+  margin-block-end: 75.5dvh;
+  padding: 2rem;
+  background-color: white;
+  display: grid;
+  gap: 10rem;
+}
+
+.home {
+  grid-column: 2;
+  grid-row: 4;
+  height: 28.5dvh;
+  padding: 2rem;
 }

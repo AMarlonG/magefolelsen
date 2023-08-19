@@ -15,8 +15,8 @@ export default function HomePage() {
 
   return (
     <>
-      <main className='mother-grid'>
-        <header className='header' id={elementIsVisible ? 'scrolling' : ''}>
+      <main className='mother-fp'>
+        <header className='header-fp' id={elementIsVisible ? 'scrolling' : ''}>
           <h1>Magefølelsen</h1>
           <h2>Kommunikasjon & design</h2>
           <a href='mailto:hei@magefolelsen.no'>hei@magefolelsen.no</a>
