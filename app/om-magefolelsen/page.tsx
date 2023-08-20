@@ -4,7 +4,6 @@ import { SelfPortrait } from '@/components/gifs/gifs';
 
 export default function AboutPage() {
   const { ref: myRef, inView: elementIsVisible } = useInView();
-  console.log('elementIsVisible', elementIsVisible);
 
   return (
     <>

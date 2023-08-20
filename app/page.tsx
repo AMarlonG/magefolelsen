@@ -11,7 +11,6 @@ import {
 
 export default function HomePage() {
   const { ref: myRef, inView: elementIsVisible } = useInView();
-  console.log('elementIsVisible', elementIsVisible);
 
   return (
     <>
