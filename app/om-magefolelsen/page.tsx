@@ -43,7 +43,7 @@ export default function AboutPage() {
               vanskelig. For å komme dit må vi grave i behov og mål, og hvordan
               det jobbes i dag. Du skal få en Rolls Royce hvis du klarer å
               håndtere den, men hvis du egentlig trenger en Toyota, er det det
-              du får. Med litt RR attåt ...😎
+              du får. ... med litt RR attåt. 😎
             </p>
             <p>
               Noen vi har jobbet med er{' '}
