@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
 import '@/styles/reset.css';
 import '@/styles/layout.css';
 import '@/styles/typography.css';
@@ -18,7 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='no'>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children} <Analytics />{' '}
+      </body>
     </html>
   );
 }
