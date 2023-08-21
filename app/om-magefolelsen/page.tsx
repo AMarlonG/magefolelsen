@@ -38,11 +38,11 @@ export default function AboutPage() {
           <section id='how'>
             <h3>Hvordan jobber vi?</h3>
             <p>
-              Rett kommunikasjon og design, til rett tid. Så enkelt, og så
-              vanskelig. For å komme dit må vi grave i behov og mål, og hvordan
-              det jobbes i dag. Du skal få en Rolls Royce hvis du klarer å
-              håndtere den, men hvis du egentlig trenger en Toyota, er det det
-              du får. ... med litt RR attåt. 😎
+              Vi skal levere rett kommunikasjon og design, til rett tid. For å
+              komme dit må vi grave i behov og mål, og analysere hvordan det
+              jobbes i dag. Du skal få en Rolls Royce hvis du klarer å håndtere
+              den, men hvis du egentlig trenger en Toyota, er det det du får.
+              ... med litt RR attåt. 😎
             </p>
             <p>
               Noen vi har jobbet med er{' '}
@@ -54,12 +54,12 @@ export default function AboutPage() {
             <h3>Hvem er Magefølelsen?</h3>
 
             <p>
-              Hei! Jeg er Ådne, og jeg har jobbet som profesjonell danser,
-              salgsleder i Aftenposten, fagkonsulent i Olympiatoppen, og
+              Hei! Jeg er Ådne, og jeg har blant annet jobbet som profesjonell
+              danser, salgsleder i Aftenposten, fagkonsulent i Olympiatoppen, og
               kommunikasjonsrådgiver. Jeg startet Magefølelsen, hvor vi jobber
-              med ulike designere og utviklere ut ifra hva du trenger. Med andre
-              ord, de rette folkene brukes til ditt prosjekt, og jeg skal styre
-              skuta i havn.
+              med ulike spesialister ut ifra hva du trenger. Det betyr at du får
+              de rette folkene til ditt prosjekt, og jeg skal styre skuta i
+              havn.
             </p>
             <div className='self-portrait'>
               <SelfPortrait />
