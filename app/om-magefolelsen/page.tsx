@@ -29,10 +29,10 @@ export default function AboutPage() {
             <h3>Hvorfor Magefølelsen?</h3>
             <p>
               Ja, hvorfor heter vi Magefølelsen? En smule pretensiøst ...? Vel,
-              det får vi leve med, for begrunnelsen er ganske enkel. Forskning
-              sier at et sted mellom følelser og logikk ligger magefølelsen, og
-              det synes vi er et bra sted når man skal lage god kommunikasjon og
-              godt design.
+              det får vi leve med, for begrunnelsen er ganske enkel. For et sted
+              mellom følelser og logikk ligger nemlig magefølelsen, og det synes
+              vi er et bra sted når man skal lage god kommunikasjon og godt
+              design.
             </p>
           </section>
           <section id='how'>
