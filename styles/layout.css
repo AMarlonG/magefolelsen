@@ -12,7 +12,7 @@ a:hover {
 /* Front page */
 
 .mother-fp {
-  width: min(130ch, 100% - 2rem);
+  width: min(130ch, 100% - 4rem);
   margin-inline: auto;
   display: grid;
   grid-template-columns: 2fr 2.5fr;
@@ -122,6 +122,11 @@ a:hover {
 .header-ap > nav > h2 > a {
   font-size: var(--step-3);
   text-decoration: none;
+}
+
+.services {
+  line-height: 1.35;
+  padding-block-start: 3rem;
 }
 
 .content {
