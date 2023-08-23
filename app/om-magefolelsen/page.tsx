@@ -46,7 +46,7 @@ export default function AboutPage() {
             </p>
             <p>
               Noen vi har jobbet med er:{' '}
-              <a href='https://www.dansenshus.com/'> Dansens Hus</a> og
+              <a href='https://www.dansenshus.com/'> Dansens Hus</a> og{' '}
               <a href='https://www.baerumkulturhus.no/'> Bærum Kulturhus</a>.
             </p>
           </section>
