@@ -19,10 +19,7 @@ export default function HomePage() {
           <h1>Magefølelsen</h1>
           <h2>Kommunikasjon & design</h2>
           <div className='services'>
-            <h3>Strategi</h3>
-            <h3>Innhold</h3>
-            <h3>Utvikling</h3>
-            <h3>Analyse</h3>
+            <h3>Strategi, innhold, utvikling og analyse</h3>
           </div>
         </header>
 
